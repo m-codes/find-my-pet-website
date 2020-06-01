@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>FindMyPet</title>
+
+  <!-- Google fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <!-- Font awesome -->
+  <script src="https://kit.fontawesome.com/8e1be92905.js" crossorigin="anonymous"></script>
+
+  <!--Bootstrap scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+  </script>
+</head>
+
+<body>
+
+  <section class="color-section" id="title">
+
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" href="">FindMyPet</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Download</a>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+
+      <!-- Title -->
+
+      <div class="row">
+
+        <div class="col-lg-6">
+
+          <h1 class="big-heading">Help get lost pets home safely.</h1>
+
+          <a href="https://github.com/m-codes/find_my_pet_app"><button type="button"
+              class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i>
+              Download</button></a>
+          <a href="https://github.com/m-codes/find_my_pet_app"><button type="button"
+              class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i>
+              Download</button></a>
+
+        </div>
+
+        <div class="col-lg-6">
+          <img class="title-image" src="images/findMyPet_homeScreen.png" alt="app-homescreen-image">
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Features -->
+  <div class="white-section" class="container-fluid">
+
+    <section id="features">
+      <div class="row">
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-paw fa-4x"></i>
+          <h3 class="feature-title">Easy to use.</h3>
+          <p>So easy to use, even your dog could do it.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-map-marker-alt fa-4x"></i>
+          <h3 class="feature-title">Search by location.</h3>
+          <p>Only get notified of lost pets within a distance of your choosing.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-bell fa-4x"></i>
+          <h3 class="feature-title">Push notificatons.</h3>
+          <p>Simply just having the app on your phone is enough to help nearby pets.</p>
+        </div>
+      </div>
+
+  </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section class="color-section" id="testimonials">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">I was reunited with Max after a user who had seen my pet on the app later spotted
+            him and contacted me.
+          </h2>
+          <img class="testimonial-img" src="images/dog2-img.jpg" alt="pet-image">
+          <em>Max, Dublin</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">This will be a carousel of quotes form users reunited with their pet.</h2>
+          <img class="testimonial-img" src="images/dog-img.jpg" alt="pet-image">
+          <em>Dogs name, Kildare</em>
+        </div>
+
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+
+
+  <!-- Press -->
+
+  <section class="color-section" id="press">
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+    <p style="padding: 0 15%;"><i>Only for temporary layout, these companies have no knowledge of this app.</i></p>
+  </section>
+
+
+  <!-- Pricing -->
+
+
+  <section class="white-section" id="pricing">
+    <h2 class="section-heading">The app is completely free</h2>
+    <p>But if you want to donate, here are some amazing charities</p>
+
+    <div class="row">
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card h-100">
+          <div class="card-header">
+            <h3>Blue Cross</h3>
+          </div>
+          <div class="card-body d-flex flex-column">
+            <h2 class="price-text">Any amount</h2>
+            <p>A charity that helps transform the lives</p>
+            <p>of pets by helping to provide life-saving</p>
+            <p>operations, treatments and healthcare.</p>
+
+            <a href="https://www.bluecross.ie/ways-to-help/donate/"><button type="button"
+                class="btn btn-lg btn-block btn-primary mt-auto">Donate</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card h-100">
+          <div class="card-header">
+            <h3>ISPCA</h3>
+          </div>
+          <div class="card-body d-flex flex-column">
+            <h2 class="price-text">Any amount</h2>
+            <p>Help prevent cruelty to animals, to</p>
+            <p>promote animal welfare and to pro-actively</p>
+            <p>relieve animal suffering in Ireland.</p>
+
+
+            <a href="https://www.ispca.ie/donate/regular_donation"> <button type="button"
+                class="btn btn-lg btn-block btn-primary mt-auto">Donate</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4">
+        <div class="card h-100">
+          <div class="card-header">
+            <h3>KWWSPCA</h3>
+          </div>
+          <div class="card-body d-flex flex-column">
+            <h2 class="price-text">Any amount</h2>
+            <p>Run solely by volunteers we are devoted</p>
+            <p>to the rescue, care and re-homing of animals</p>
+            <p>throughout Kildare and West Wicklow.</p>
+
+
+            <a href="http://kwwspca.ie/donate/"><button type="button" class="btn btn-lg btn-block btn-primary mt-auto">
+                Donate</button></a>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section class="color-section" id="cta">
+    <div class="container-fluid">
+      <h3 class="big-heading">Help a pet be reunited with its owner today.</h3>
+      <a href="https://github.com/m-codes/find_my_pet_app"><button type="button"
+          class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i>
+          Download</button></a>
+      <a href="https://github.com/m-codes/find_my_pet_app"><button type="button"
+          class="btn btn-light btn-lg download-button"><i class="fab fa-google-play"></i>
+          Download</button></a>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <a href="mailto:martinwalhsd@gmail.com"><i class="social-icon fas fa-2x fa-envelope"></i></a>
+      <a href="https://github.com/m-codes"><i class="social-icon fab fa-2x fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/martin-walsh-36298a151/"><i
+          class="social-icon fab fa-2x fa-linkedin"></i></a>
+      <p>© Copyright 2020 FindMyPet</p>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
